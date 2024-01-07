@@ -15,7 +15,7 @@ function openSocial(type) {
         break; 
 
 	case 'spotify':
-        url = 'https://open.spotify.com/user/31hh6ssb4g5hrphb6x6eq2jzl2jm/following';
+        url = 'https://open.spotify.com/user/xwwgwk016q20pshtaw9a1hp19';
         break;   
 
 	case 'email':
