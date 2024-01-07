@@ -11,7 +11,7 @@ function openSocial(type) {
       break;
 
       case 'discord':
-        url = 'https://www.discord.com/users/885063317079592961';
+        url = 'https://discord.dog/885063317079592961';
         break; 
 
 	case 'spotify':
