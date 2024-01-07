@@ -17,6 +17,10 @@ function openSocial(type) {
 	case 'spotify':
         url = 'https://open.spotify.com/user/31hh6ssb4g5hrphb6x6eq2jzl2jm/following';
         break;   
+
+	case 'email':
+        url = 'mailto:trix@lawliet.tk';
+        break;   
   }
 
   window.open(url);
