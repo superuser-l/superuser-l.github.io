@@ -734,7 +734,7 @@ a {
 }
 
 .bg-image {
-	background-image: url('../img/background.png');
+	background-image: url('../img/background.gif');
 
 	filter: blur(6px);
 	-webkit-filter: blur(6px);
