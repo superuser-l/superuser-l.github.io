@@ -1,88 +1,94 @@
+ <!-- Site made by tr1x_em -->
+
+
 <!DOCTYPE html>
 <html>
-<head>
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- seo + discord embed -->
-  <meta content="tr1x_em" property="og:title" />
-  <meta content="Just my bio page" property="og:description" />
-  <meta content="https://tr1xem.is-a.dev" property="og:url" />
-  <meta property="og:image" content="https://monarchmail.xyz/proxy?url=https://cdn.nest.rip/uploads/8dfc2ea7-0810-4966-a10d-437a6986d56f.png">
-  <meta content="#89CFF0" data-react-helmet="true" name="theme-color" />
-
-  <!-- title + favicon -->
-  <title>tr1x_em | welcome</title>
-  <link rel="shortcut icon" type="image/jpg" href="assets/img/tr1x_em.png"/>
-
-  <!-- assets -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-
-  <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"
-  ></script>
-
-  <script src="./assets/js/script.js"></script>
-
-</head>
-
-<body>
-  <div class="intro">
-    <p id="intro-text"></p>
-  </div>
-
-  <div class="bg-image" style="display: none"></div>
-
-  <div class="main" style="display: none">
-    <div class="box">
-      <div class="header">
-        <p class="maintext">tr1x_em</p>	<br>
-        <span class="subtext"><p id="subtext"></p> 
+  <head>
+   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- seo + discord embed -->
+    <meta content="tr1x_em" property="og:title" />
+    <meta content="Just my bio page" property="og:description" />
+    <meta content="https://tr1xem.is-a.dev" property="og:url" />
+    <meta property="og:image" content="https://monarchmail.xyz/proxy?url=https://cdn.nest.rip/uploads/8dfc2ea7-0810-4966-a10d-437a6986d56f.png">
+    <meta content="#89CFF0" data-react-helmet="true" name="theme-color" />
+    <!-- title + favicon -->
+    <title>tr1x_em | welcome</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/tr1x_em.png" />
+    <!-- assets -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <div class="intro">
+      <p id="intro-text"></p>
+    </div>
+    <div class="bg-image" style="display: none"></div>
+    <!--box for home screen -->
+    <div class="main" style="display: none">
+      <div class="box">
+        <div class="header">
+          <p class="maintext">tr1x_em</p>
+          <br>
+          <span class="subtext">
+            <p id="subtext"></p>
           </span>
-      </div>
-			   
-               <!--music -->
-               <div class="container music-player" style="text-align: center;">
-                <div id="musicPlayer" style="background-color: transparent; padding: 10px; border-radius: 5px; margin: 0 auto;">
-                   <button id="prev" class="player-btn">
-                   <object type="image/svg+xml" data="./assets/images/back.svg" class="button-svg">Previous</object>
-                   </button>
-                   <button id="playPause" class="player-btn">
-                   <img id="playPauseIcon" src="./assets/images/play.svg" class="button-svg" alt="Play/Pause">
-                   </button>
-                   <button id="next" class="player-btn">
-                   <object type="image/svg+xml" data="./assets/images/next.svg" class="button-svg">Next</object>
-                   </button>
-                   <audio id="audioPlayer"></audio>
-                   <div id="nowPlayingContainer">
-                      <div id="nowPlayingText" class="now-playing">Now Playing - </div>
-                   </div>
-                </div>
-             </div>
-       
-  <div class="presence">
+        </div>
 
-               <p>
-                <img src="https://api.status.gg/discord/885063317079592961?theme%5Bbackground%5D%5Bprimary%5D=21232636&amp;theme%5Bbackground%5D%5Bsecondary%5D=21232636&amp;theme%5Bseparator%5D=96a1c2&amp;theme%5Blogo%5D=5764f200" width="350px"  class="center" title="Discord Presence">
-               </p>
+        <!--badges-->
 
-</div>	
-<br>
 
-<!--footer embed for home screen -->
-      <div class="footer">
-	<img src="assets/img/github-512.png" class="social-logo" onclick="openSocial('github')"></img>
-        <img src="assets/img/discord-512.png" class="social-logo" onclick="openSocial('discord')"></img>
-	<img src="assets/img/spotify.png" class="social-logo" onclick="openSocial('spotify')"></img>
 
+        <!--music -->
+        <div class="container music-player" style="text-align: center;">
+          <div id="musicPlayer" style="background-color: transparent; padding: 10px; border-radius: 5px; margin: 0 auto;">
+            <button id="prev" class="player-btn">
+              <object type="image/svg+xml" data="./assets/images/back.svg" class="button-svg">Previous</object>
+            </button>
+            <button id="playPause" class="player-btn">
+              <img id="playPauseIcon" src="./assets/images/play.svg" class="button-svg" alt="Play/Pause">
+            </button>
+            <button id="next" class="player-btn">
+              <object type="image/svg+xml" data="./assets/images/next.svg" class="button-svg">Next</object>
+            </button>
+            <audio id="audioPlayer"></audio>
+            <div id="nowPlayingContainer">
+              <div id="nowPlayingText" class="now-playing">Now Playing - </div>
+            </div>
+          </div>
+        </div>
+        <!--presence embed for home screen -->
+        <div class="presence">
+          <p>
+            <img src="https://api.status.gg/discord/885063317079592961?theme%5Bbackground%5D%5Bprimary%5D=21232636&amp;theme%5Bbackground%5D%5Bsecondary%5D=21232636&amp;theme%5Bseparator%5D=96a1c2&amp;theme%5Blogo%5D=5764f200" width="350px" class="center" title="Discord Presence">
+          </p>
+        </div>
+        <br>
+        <!--footer embed for home screen -->
+        <div class="footer">
+          <img src="assets/img/github-512.png" class="social-logo" onclick="openSocial('github')"></img>
+          <img src="assets/img/discord-512.png" class="social-logo" onclick="openSocial('discord')"></img>
+          <img src="assets/img/spotify.png" class="social-logo" onclick="openSocial('spotify')"></img>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="./assets/js/oneko.js"></script>
-  <script src="./assets/js/music.js"></script>
-</body>
+    <!--credit embed for home screen -->
+    <footer class="credit">
+      <p>Made with <span class="heart">❤</span> by <a href="#" id="tr1x_em_link">tr1x_em</a>
+      </p>
+    </footer>
+    <!-- JavaScript to handle link redirection -->
+    <script>
+      document.getElementById('tr1x_em_link').addEventListener('click', function() {
+        // Redirect to tr1x_em's page
+        window.location.href = 'https://tr1x_em_page.com'; // Replace this with the actual link
+      });
+    </script>
+    <script src="./assets/js/oneko.js"></script>
+    <script src="./assets/js/music.js"></script>
+  </body>
 </html>
+<!-- Credits for some resources to ched.rip and its dev ty :3 -->
