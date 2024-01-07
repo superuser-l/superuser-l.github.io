@@ -734,10 +734,10 @@ a {
 }
 
 .bg-image {
-	background-image: url('../img/background.gif');
-
-	filter: blur(6px);
-	-webkit-filter: blur(6px);
+	/*background-image: url('../img/background.gif');*/
+        background-image: url('https://media.giphy.com/media/D7ZXU6eiZ4V7AEsOjV/giphy.gif');
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
 
 	position: absolute;
 	top: 0px;
