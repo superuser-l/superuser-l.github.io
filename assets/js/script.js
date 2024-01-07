@@ -54,8 +54,8 @@ function typerStartTyping(typer) {
   typer.reset();
 
 
-  let text = ['17 Years Old Hindi & English Developer.', 'Interested In Rev Engineering, Assembly , C++ , Python.', 'I use Arch (Btw)', 'WE GO JIMMMMMM'];	
-
+  let text = ['17 Years Old Hindi & English Developer.', 'Interested In Rev Engineering, Assembly , C++ , Python.', 'I use Arch , btw', 'WE GO JIMMMMMM'];	
+	
   text.forEach(function (language, index) {
     typer.move(null);
     typer.type(language, { delay: 1000 });
