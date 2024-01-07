@@ -19,7 +19,7 @@ function openSocial(type) {
         break;   
 
 	case 'email':
-        url = 'mailto:trix@lawliet.tk';
+        url = 'https://mailto:trix@lawliet.tk';
         break;   
   }
 
