@@ -1,4 +1,4 @@
-// Coded by https://ched.rip
+// Coded by ched
 // Optimized and made functional for this website by https://github.com/tr1xem
 
 let songList = [
