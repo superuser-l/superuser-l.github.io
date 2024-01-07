@@ -1,3 +1,6 @@
+// Coded by https://ched.rip
+// Optimized and made functional for this website by https://github.com/tr1xem
+
 let songList = [
     './assets/audio/Lovely Bastards X Meet The Frownies - Xenoner.mp3',
     './assets/audio/Revenge - xxxtentacion.mp3',
@@ -56,5 +59,3 @@ audioPlayer.addEventListener('ended', function () {
 });
 
 playPauseButton.addEventListener('click', togglePlayPause);
-
-// Auto-play the first song when the page loads
