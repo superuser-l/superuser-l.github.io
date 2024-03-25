@@ -1,5 +1,3 @@
-// Coded by ched
-// Optimized and made functional for this website by https://github.com/tr1xem
 
 let songList = [
     './assets/audio/I WANNA BE YOUR SLAVE - Maneskin.mp3',
