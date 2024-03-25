@@ -2,6 +2,7 @@
 // Optimized and made functional for this website by https://github.com/tr1xem
 
 let songList = [
+    './assets/audio/I WANNA BE YOUR SLAVE - Maneskin.mp3',
     './assets/audio/Annihilate - Metro Boomin.mp3',
     './assets/audio/Lovely Bastards X Meet The Frownies - Xenoner.mp3',
     './assets/audio/Revenge - xxxtentacion.mp3',
