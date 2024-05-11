@@ -1,0 +1,92 @@
+/*
+    My personal informations
+*/
+
+const personalInfo = {
+    fullName: "tr1x_em",
+    age: undefined,
+    birthday: new Date(1166486400000).toLocaleString('it').split(',')[0].replace('2023', '200#'), // aka 19/12/200#
+    nationality: "Indian 🇮🇳",
+    status: "[[striketrhoughStart]]Single[[striketrhoughEnd]] Alone... :)", // how to run "taskkill /f life.exe" for IRL life?
+    
+};
+
+/*
+    Spoken Languages
+*/
+
+const knownLanguages = [
+    {
+        name: "Hindi",
+        level: 100 // 0-100 (kinda obv since it's my native lang)
+    },
+    {
+        name: "English",
+        level: 99 // 0-100 (this is how I think I am, idk if others think so too)
+    },
+    {
+        name: "Garhwali",
+        level: 68.5 // 0-100 (its a dialect)
+    }
+];
+
+/*
+    Programming Languages, Markup Languages and Terminal
+*/
+
+const knownProgramming = [
+    {
+        name: "Python", // for the comment on the status value, the question goes also for "os.unlink(r'C:\Life.exe')"
+        level: 90 // 0-100
+    },
+    {
+        name: "C++", // for the previous comment, also for "std::remove("life.exe");"
+        level: 40 // 0-100
+    },
+    {
+        name: "Assembly", // also for "mov byte [life], 0"
+        level: 45 // 0-100
+    },
+    {
+        name: "Bash/Shell", // for "sudo rm -rf --no-preserve-root /life.sh" too
+        level: 45 // 0-100
+    }
+];
+
+
+/*
+    Some info about my socials
+*/
+
+const discord = {
+    botDeveloper: true,
+    badges: [
+        "House of Balance",
+        "Active Developer",
+        "Originally Known as tr1x_em#7770" // Switch from discriminator to pomelo (tr1x_em#7770 => tr1x_em)
+    ]
+};
+
+const instagram = {
+    followers: 31 // Last updated April 11 2024, 21:40 (09:40 PM)
+};
+
+const revolt = {
+    botDeveloper: true, // inactive
+    badges: [],
+    publicBots: []
+};
+
+const github = {
+    followers: 3, // Last updated April 11 2024, 21:41 (09:41 PM)
+    repositories: 17 // Some are private, last updated April 11 2024, 20:41 (09:41 PM)
+};
+
+const reddit = {
+    oldAccountKarma: 0,
+    newAccountKarma: 2951 // Last updated April 11 2024, 21:43 (09:43 PM)
+};
+
+const twitter = {
+    followers: 0 // Last updated April 11 2024, 21:44 (09:44 PM)
+};
