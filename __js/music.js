@@ -6,7 +6,7 @@ let songList = [
     '/__assets/audio/Revenge - xxxtentacion.mp3',
     '/__assets/audio/The Hills - The Weeknd.mp3',
 ];
-let currentSongIndex = 0;
+let currentSongIndex = Math.floor(Math.random() * songList.length);
 const audioPlayer = document.getElementById('audioPlayer');
 const playPauseButton = document.getElementById('playPause');
 const nowPlayingText = document.getElementById('nowPlayingText');
@@ -18,6 +18,7 @@ function loadSong(songIndex) {
     nowPlayingText.textContent = `Now Playing - ${songName}`;
     audioPlayer.src = songList[songIndex];
     audioPlayer.load();
+    console.log(`Started playing "${songName}" - [index ${songIndex}]`)
 }
 
 function togglePlayPause() {
